@@ -5,12 +5,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    
       <div className="App">
         <Route path="/about" component={About} />
         <Route path="/store" component={Store} />
       </div>
-    </BrowserRouter>
+    
   );
 }
 
